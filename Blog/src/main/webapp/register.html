@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <script type="text/javascript" src="js/ajax.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Rejestracja</h1>
+        <h5>Twój login:</h5>
+        <input type="text" id="logField"/>
+        <h5>Twój password:</h5>
+        <input type="password" id="passField"/><br/>
+        <h5>Potwierdź password:</h5>
+        <input type="password" id="passField2"/><br/><br/>
+        <input type="button" id="loginButton" value="Utwórz konto" onClick="register('logField', 'passField', 'passField2','info');" />
+        <h1 id="info"></h1>
+        <a href="http://localhost:8080/WebLab3/login.html">Zaloguj sie</a>
+    </body>
+</html>

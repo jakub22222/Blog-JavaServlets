@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Start Page</title>
+        <script type="text/javascript" src="js/ajax.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body onload="getLoginCookies('logField','passField','remeberMe');">
+        <h1>Login</h1>
+        <h5>Twój login:</h5>
+        <input type="text" id="logField"/>
+        <h5>Twój password:</h5>
+        <input type="password" id="passField"/><br/>
+        <input type="checkbox" id="remeberMe" name="remember" value="remember"><label for="remeberMe">Zapamiętaj mnie</label><br>
+        <input type="button" id="loginButton" value="Zaloguj się" onClick="login('logField', 'passField', 'info', 'remeberMe');" />
+        <h1 id="info"></h1>
+        <a href="http://localhost:8080/WebLab3/register.html">Rejestracja</a>
+    </body>
+</html>

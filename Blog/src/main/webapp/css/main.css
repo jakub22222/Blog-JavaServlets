@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+}
+
+table, td, th, tr {
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+MARQUEE
+{
+	font-family: arial;
+	font-size: 40px;
+	background-color: #cc0000;
+	color: white;
+}
+#main
+{
+	width: 1000px;
+	margin: auto;
+	
+	background-color: silver;
+}
+
+.produkt
+{
+	width: 100%;
+	
+	background-color: white;
+	margin-bottom: 2px;
+	float:left;
+}
+.right
+{
+    text-align: right;
+}
+
+.upper
+{
+    
+    font-size: 20px;
+}
+.lower
+{
+    background-color: silver;
+    padding-bottom: 20px;
+}
+
+.frame
+{
+    border: 1px black solid;
+}
+
+#firstName
+{
+    width: 400px;
+}
+
+.bigButton
+{
+	color: white;
+	font-family: arial;
+	background-color: #cc0000;
+	border-color: white;
+	width: 350px;
+	height: 50px;
+	font-size: 30px;
+	margin: 20px;
+}
+
+.bigButton:hover
+{
+	color: black;
+	background-color: #c94d4d;
+}
+
